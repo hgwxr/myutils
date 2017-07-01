@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">myutils</string>
+
+
+    <string name="get_check_code">获取验证码</string>
+    <string name="re_get_check_code">重新获取</string>
+    <string name="check_code_error">重新验证</string>
+    <string name="get_check_code_count">%d秒</string>
+</resources>
