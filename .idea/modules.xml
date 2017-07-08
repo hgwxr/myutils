@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/myutils.iml" filepath="$PROJECT_DIR$/myutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nine_image/nine_image.iml" filepath="$PROJECT_DIR$/nine_image/nine_image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pickerview/pickerview.iml" filepath="$PROJECT_DIR$/pickerview/pickerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofit/retrofit.iml" filepath="$PROJECT_DIR$/retrofit/retrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rulerview/rulerview.iml" filepath="$PROJECT_DIR$/rulerview/rulerview.iml" />
     </modules>
   </component>
 </project>

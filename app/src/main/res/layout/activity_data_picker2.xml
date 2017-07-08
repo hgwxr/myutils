@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="skill.android.wl.myutils.DataPickerActivity">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.weigan.loopview.LoopView
+        android:id="@+id/data_p"
+        android:layout_weight="1"
+        app:awv_textsize="18"
+        android:layout_width="0dp"
+        android:layout_height="150dp" />
+    <com.weigan.loopview.LoopView
+        app:awv_textsize="18"
+        android:id="@+id/data_c"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="150dp" />
+    <com.weigan.loopview.LoopView
+        app:awv_textsize="18"
+        android:id="@+id/data_a"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="150dp" />
+</LinearLayout>
+</RelativeLayout>

@@ -1,10 +1,14 @@
 package skill.android.wl.myutils;
 
+import android.content.Intent;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+
+import com.weidongjian.meitu.wheelviewdemo.view.LoopView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,8 +27,14 @@ public class MainActivity extends AppCompatActivity {
         swipe = ((SwipeRefreshLayout) findViewById(R.id.swipe));
         demoAdapter = new DemoAdapter(this);
         listView.setAdapter(demoAdapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(MainActivity.this, DataPickerActivity.class);
+                startActivity(intent);
+            }
+        });
         swipe.setRefreshing(true);
-
         swipe.postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -42,7 +52,10 @@ public class MainActivity extends AppCompatActivity {
                         List<String> datas= loadDataNew();
                         //demoAdapter.addAll(datas);
                         demoAdapter.addAll(datas,0);
+
+                        listView.smoothScrollToPositionFromTop(datas.size(),datas.size()-1,1000);
                         listView.setSelection(datas.size());
+
                         swipe.setRefreshing(false);
                     }
                 },1000);

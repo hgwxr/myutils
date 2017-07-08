@@ -9,6 +9,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/nine_image" />
+            <option value="$PROJECT_DIR$/pickerview" />
+            <option value="$PROJECT_DIR$/retrofit" />
+            <option value="$PROJECT_DIR$/rulerview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

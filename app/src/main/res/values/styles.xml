@@ -16,4 +16,10 @@
         <attr name="indicator_size" format="dimension"/>
         <attr name="indicator_space" format="dimension"/>
     </declare-styleable>
+
+
+    <style name="CityPickerAnim">
+        <item name="android:windowEnterAnimation">@anim/bottom_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_slide_out</item>
+    </style>
 </resources>

@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':pickerview', ':library', ':rulerview', ':rulerview', ':retrofit', ':nine_image'
