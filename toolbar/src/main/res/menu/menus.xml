@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_1"
+        android:title="菜单1"
+
+        app:showAsAction="withText|ifRoom"/>
+    <item android:id="@+id/action_2"
+        android:title="菜单2"
+        android:actionLayout="@layout/activity_main"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_3"
+        android:title="菜单3"
+        android:actionLayout="@layout/activity_main"
+        app:showAsAction="never"/>
+</menu>

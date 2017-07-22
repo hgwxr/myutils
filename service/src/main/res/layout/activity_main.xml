@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="skill.android.wl.service.MainActivity"
+    android:orientation="vertical">
+
+  <Button
+      android:id="@+id/start_service"
+      android:text="start service"
+      android:layout_width="match_parent"
+      android:layout_height="50dp" />
+    <Button
+        android:id="@+id/stop_service"
+        android:text="stop service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+  <Button
+      android:id="@+id/bind_service"
+      android:text="bind service"
+      android:layout_width="match_parent"
+      android:layout_height="50dp" />
+  <Button
+      android:id="@+id/unbind_service"
+      android:text="unbind service"
+      android:layout_width="match_parent"
+      android:layout_height="50dp" />
+  <Button
+      android:id="@+id/get_data"
+      android:text="unbind service"
+      android:layout_width="match_parent"
+      android:layout_height="50dp" />
+  <Button
+      android:id="@+id/start_foreground_service"
+      android:text="start_foreground_service"
+      android:layout_width="match_parent"
+      android:layout_height="50dp" />
+  <Button
+      android:id="@+id/stop_foreground_service"
+      android:text="stop_foreground_service"
+      android:layout_width="match_parent"
+      android:layout_height="50dp" />
+</LinearLayout>

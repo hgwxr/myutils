@@ -3,17 +3,27 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="F:/mysql/gradle-3.4" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/androidcollection" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/click_effect" />
+            <option value="$PROJECT_DIR$/layoutmanager" />
             <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/mydownload" />
+            <option value="$PROJECT_DIR$/mywebview" />
             <option value="$PROJECT_DIR$/nine_image" />
             <option value="$PROJECT_DIR$/pickerview" />
             <option value="$PROJECT_DIR$/retrofit" />
             <option value="$PROJECT_DIR$/rulerview" />
+            <option value="$PROJECT_DIR$/rxdemo" />
+            <option value="$PROJECT_DIR$/selectionrecyclerview" />
+            <option value="$PROJECT_DIR$/service" />
+            <option value="$PROJECT_DIR$/toolbar" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

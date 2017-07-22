@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="skill.android.wl.toolbar.MainActivity">
+
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:theme="@style/ToolBarTheme"
+    android:background="@color/colorAccent"
+    app:titleTextAppearance="@style/Toolbar.titletext"
+    app:popupTheme="@style/ToolBarPopupTheme"
+    >
+
+
+
+</android.support.v7.widget.Toolbar>
+
+<android.support.v7.widget.ButtonBarLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:textColor="#0f0"
+        android:text="按钮a"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:textSize="12sp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#0f0"
+        android:text="按钮a"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:textSize="12sp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮a"
+        android:textColor="#0f0"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮a"
+        android:textColor="#0f0"
+        android:textSize="12sp" />
+
+    <Button
+        android:textColor="#0f0"
+        android:text="按钮a"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:textSize="12sp"
+        android:layout_height="wrap_content" />
+    </android.support.v7.widget.ButtonBarLayout>
+
+</FrameLayout>

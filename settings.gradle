@@ -1,1 +1,1 @@
-include ':app', ':pickerview', ':library', ':rulerview', ':rulerview', ':retrofit', ':nine_image'
+include ':app', ':pickerview', ':library', ':rulerview', ':rulerview', ':retrofit', ':nine_image', ':layoutmanager', ':mywebview', ':mydownload', ':toolbar', ':click_effect', ':selectionrecyclerview', ':rxdemo', ':service', ':androidcollection'

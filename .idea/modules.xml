@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidcollection/androidcollection.iml" filepath="$PROJECT_DIR$/androidcollection/androidcollection.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/click_effect/click_effect.iml" filepath="$PROJECT_DIR$/click_effect/click_effect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layoutmanager/layoutmanager.iml" filepath="$PROJECT_DIR$/layoutmanager/layoutmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mydownload/mydownload.iml" filepath="$PROJECT_DIR$/mydownload/mydownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/myutils.iml" filepath="$PROJECT_DIR$/myutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mywebview/mywebview.iml" filepath="$PROJECT_DIR$/mywebview/mywebview.iml" />
       <module fileurl="file://$PROJECT_DIR$/nine_image/nine_image.iml" filepath="$PROJECT_DIR$/nine_image/nine_image.iml" />
       <module fileurl="file://$PROJECT_DIR$/pickerview/pickerview.iml" filepath="$PROJECT_DIR$/pickerview/pickerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofit/retrofit.iml" filepath="$PROJECT_DIR$/retrofit/retrofit.iml" />
       <module fileurl="file://$PROJECT_DIR$/rulerview/rulerview.iml" filepath="$PROJECT_DIR$/rulerview/rulerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxdemo/rxdemo.iml" filepath="$PROJECT_DIR$/rxdemo/rxdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/selectionrecyclerview/selectionrecyclerview.iml" filepath="$PROJECT_DIR$/selectionrecyclerview/selectionrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toolbar/toolbar.iml" filepath="$PROJECT_DIR$/toolbar/toolbar.iml" />
     </modules>
   </component>
 </project>
